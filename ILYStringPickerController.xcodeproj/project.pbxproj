@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFF716F824C923CD00522100 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF716F724C923CD00522100 /* AppDelegate.m */; };
+		BFF716FB24C923CD00522100 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF716FA24C923CD00522100 /* SceneDelegate.m */; };
+		BFF716FE24C923CD00522100 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF716FD24C923CD00522100 /* ViewController.m */; };
+		BFF7170124C923CD00522100 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFF716FF24C923CD00522100 /* Main.storyboard */; };
+		BFF7170324C923D200522100 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFF7170224C923D200522100 /* Assets.xcassets */; };
+		BFF7170624C923D200522100 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFF7170424C923D200522100 /* LaunchScreen.storyboard */; };
+		BFF7170924C923D200522100 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF7170824C923D200522100 /* main.m */; };
+		BFF7171324C923D200522100 /* ILYStringPickerControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF7171224C923D200522100 /* ILYStringPickerControllerTests.m */; };
+		BFF7171E24C923D200522100 /* ILYStringPickerControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF7171D24C923D200522100 /* ILYStringPickerControllerUITests.m */; };
+		BFF7172E24C9240E00522100 /* ILYStringPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF7172D24C9240E00522100 /* ILYStringPickerController.m */; };
+		BFF7173124C9406000522100 /* NSString+ILYStringPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF7173024C9406000522100 /* NSString+ILYStringPicker.m */; };
+		BFF7173524C9A94700522100 /* TestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF7173424C9A94700522100 /* TestModel.m */; };
+		BFF7173824C9A96F00522100 /* TestModel+ILYStringPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF7173724C9A96F00522100 /* TestModel+ILYStringPicker.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFF7170F24C923D200522100 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFF716EB24C923CD00522100 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFF716F224C923CD00522100;
+			remoteInfo = ILYStringPickerController;
+		};
+		BFF7171A24C923D200522100 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFF716EB24C923CD00522100 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFF716F224C923CD00522100;
+			remoteInfo = ILYStringPickerController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BFF716F324C923CD00522100 /* ILYStringPickerController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ILYStringPickerController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFF716F624C923CD00522100 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BFF716F724C923CD00522100 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BFF716F924C923CD00522100 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		BFF716FA24C923CD00522100 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		BFF716FC24C923CD00522100 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BFF716FD24C923CD00522100 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BFF7170024C923CD00522100 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFF7170224C923D200522100 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFF7170524C923D200522100 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFF7170724C923D200522100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFF7170824C923D200522100 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BFF7170E24C923D200522100 /* ILYStringPickerControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ILYStringPickerControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFF7171224C923D200522100 /* ILYStringPickerControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ILYStringPickerControllerTests.m; sourceTree = "<group>"; };
+		BFF7171424C923D200522100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFF7171924C923D200522100 /* ILYStringPickerControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ILYStringPickerControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFF7171D24C923D200522100 /* ILYStringPickerControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ILYStringPickerControllerUITests.m; sourceTree = "<group>"; };
+		BFF7171F24C923D200522100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFF7172C24C9240E00522100 /* ILYStringPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILYStringPickerController.h; sourceTree = "<group>"; };
+		BFF7172D24C9240E00522100 /* ILYStringPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILYStringPickerController.m; sourceTree = "<group>"; };
+		BFF7172F24C9406000522100 /* NSString+ILYStringPicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+ILYStringPicker.h"; sourceTree = "<group>"; };
+		BFF7173024C9406000522100 /* NSString+ILYStringPicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+ILYStringPicker.m"; sourceTree = "<group>"; };
+		BFF7173224C97F4F00522100 /* ILYStringPickerModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ILYStringPickerModel.h; sourceTree = "<group>"; };
+		BFF7173324C9A94700522100 /* TestModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestModel.h; sourceTree = "<group>"; };
+		BFF7173424C9A94700522100 /* TestModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestModel.m; sourceTree = "<group>"; };
+		BFF7173624C9A96F00522100 /* TestModel+ILYStringPicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestModel+ILYStringPicker.h"; sourceTree = "<group>"; };
+		BFF7173724C9A96F00522100 /* TestModel+ILYStringPicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "TestModel+ILYStringPicker.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFF716F024C923CD00522100 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF7170B24C923D200522100 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF7171624C923D200522100 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFF716EA24C923CD00522100 = {
+			isa = PBXGroup;
+			children = (
+				BFF716F524C923CD00522100 /* ILYStringPickerController */,
+				BFF7171124C923D200522100 /* ILYStringPickerControllerTests */,
+				BFF7171C24C923D200522100 /* ILYStringPickerControllerUITests */,
+				BFF716F424C923CD00522100 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFF716F424C923CD00522100 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFF716F324C923CD00522100 /* ILYStringPickerController.app */,
+				BFF7170E24C923D200522100 /* ILYStringPickerControllerTests.xctest */,
+				BFF7171924C923D200522100 /* ILYStringPickerControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFF716F524C923CD00522100 /* ILYStringPickerController */ = {
+			isa = PBXGroup;
+			children = (
+				BFF7172B24C923E700522100 /* ILYStringPickerController */,
+				BFF716F624C923CD00522100 /* AppDelegate.h */,
+				BFF716F724C923CD00522100 /* AppDelegate.m */,
+				BFF716F924C923CD00522100 /* SceneDelegate.h */,
+				BFF716FA24C923CD00522100 /* SceneDelegate.m */,
+				BFF7173324C9A94700522100 /* TestModel.h */,
+				BFF7173424C9A94700522100 /* TestModel.m */,
+				BFF7173624C9A96F00522100 /* TestModel+ILYStringPicker.h */,
+				BFF7173724C9A96F00522100 /* TestModel+ILYStringPicker.m */,
+				BFF716FC24C923CD00522100 /* ViewController.h */,
+				BFF716FD24C923CD00522100 /* ViewController.m */,
+				BFF716FF24C923CD00522100 /* Main.storyboard */,
+				BFF7170224C923D200522100 /* Assets.xcassets */,
+				BFF7170424C923D200522100 /* LaunchScreen.storyboard */,
+				BFF7170724C923D200522100 /* Info.plist */,
+				BFF7170824C923D200522100 /* main.m */,
+			);
+			path = ILYStringPickerController;
+			sourceTree = "<group>";
+		};
+		BFF7171124C923D200522100 /* ILYStringPickerControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFF7171224C923D200522100 /* ILYStringPickerControllerTests.m */,
+				BFF7171424C923D200522100 /* Info.plist */,
+			);
+			path = ILYStringPickerControllerTests;
+			sourceTree = "<group>";
+		};
+		BFF7171C24C923D200522100 /* ILYStringPickerControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BFF7171D24C923D200522100 /* ILYStringPickerControllerUITests.m */,
+				BFF7171F24C923D200522100 /* Info.plist */,
+			);
+			path = ILYStringPickerControllerUITests;
+			sourceTree = "<group>";
+		};
+		BFF7172B24C923E700522100 /* ILYStringPickerController */ = {
+			isa = PBXGroup;
+			children = (
+				BFF7172C24C9240E00522100 /* ILYStringPickerController.h */,
+				BFF7172D24C9240E00522100 /* ILYStringPickerController.m */,
+				BFF7173224C97F4F00522100 /* ILYStringPickerModel.h */,
+				BFF7172F24C9406000522100 /* NSString+ILYStringPicker.h */,
+				BFF7173024C9406000522100 /* NSString+ILYStringPicker.m */,
+			);
+			path = ILYStringPickerController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFF716F224C923CD00522100 /* ILYStringPickerController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFF7172224C923D200522100 /* Build configuration list for PBXNativeTarget "ILYStringPickerController" */;
+			buildPhases = (
+				BFF716EF24C923CD00522100 /* Sources */,
+				BFF716F024C923CD00522100 /* Frameworks */,
+				BFF716F124C923CD00522100 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ILYStringPickerController;
+			productName = ILYStringPickerController;
+			productReference = BFF716F324C923CD00522100 /* ILYStringPickerController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFF7170D24C923D200522100 /* ILYStringPickerControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFF7172524C923D200522100 /* Build configuration list for PBXNativeTarget "ILYStringPickerControllerTests" */;
+			buildPhases = (
+				BFF7170A24C923D200522100 /* Sources */,
+				BFF7170B24C923D200522100 /* Frameworks */,
+				BFF7170C24C923D200522100 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFF7171024C923D200522100 /* PBXTargetDependency */,
+			);
+			name = ILYStringPickerControllerTests;
+			productName = ILYStringPickerControllerTests;
+			productReference = BFF7170E24C923D200522100 /* ILYStringPickerControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BFF7171824C923D200522100 /* ILYStringPickerControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFF7172824C923D200522100 /* Build configuration list for PBXNativeTarget "ILYStringPickerControllerUITests" */;
+			buildPhases = (
+				BFF7171524C923D200522100 /* Sources */,
+				BFF7171624C923D200522100 /* Frameworks */,
+				BFF7171724C923D200522100 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFF7171B24C923D200522100 /* PBXTargetDependency */,
+			);
+			name = ILYStringPickerControllerUITests;
+			productName = ILYStringPickerControllerUITests;
+			productReference = BFF7171924C923D200522100 /* ILYStringPickerControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFF716EB24C923CD00522100 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = Teonardo;
+				TargetAttributes = {
+					BFF716F224C923CD00522100 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					BFF7170D24C923D200522100 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = BFF716F224C923CD00522100;
+					};
+					BFF7171824C923D200522100 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = BFF716F224C923CD00522100;
+					};
+				};
+			};
+			buildConfigurationList = BFF716EE24C923CD00522100 /* Build configuration list for PBXProject "ILYStringPickerController" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFF716EA24C923CD00522100;
+			productRefGroup = BFF716F424C923CD00522100 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFF716F224C923CD00522100 /* ILYStringPickerController */,
+				BFF7170D24C923D200522100 /* ILYStringPickerControllerTests */,
+				BFF7171824C923D200522100 /* ILYStringPickerControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFF716F124C923CD00522100 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF7170624C923D200522100 /* LaunchScreen.storyboard in Resources */,
+				BFF7170324C923D200522100 /* Assets.xcassets in Resources */,
+				BFF7170124C923CD00522100 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF7170C24C923D200522100 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF7171724C923D200522100 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFF716EF24C923CD00522100 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF716FE24C923CD00522100 /* ViewController.m in Sources */,
+				BFF716F824C923CD00522100 /* AppDelegate.m in Sources */,
+				BFF7172E24C9240E00522100 /* ILYStringPickerController.m in Sources */,
+				BFF7173124C9406000522100 /* NSString+ILYStringPicker.m in Sources */,
+				BFF7170924C923D200522100 /* main.m in Sources */,
+				BFF7173824C9A96F00522100 /* TestModel+ILYStringPicker.m in Sources */,
+				BFF7173524C9A94700522100 /* TestModel.m in Sources */,
+				BFF716FB24C923CD00522100 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF7170A24C923D200522100 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF7171324C923D200522100 /* ILYStringPickerControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF7171524C923D200522100 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF7171E24C923D200522100 /* ILYStringPickerControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFF7171024C923D200522100 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFF716F224C923CD00522100 /* ILYStringPickerController */;
+			targetProxy = BFF7170F24C923D200522100 /* PBXContainerItemProxy */;
+		};
+		BFF7171B24C923D200522100 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFF716F224C923CD00522100 /* ILYStringPickerController */;
+			targetProxy = BFF7171A24C923D200522100 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFF716FF24C923CD00522100 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFF7170024C923CD00522100 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFF7170424C923D200522100 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFF7170524C923D200522100 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFF7172024C923D200522100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BFF7172124C923D200522100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFF7172324C923D200522100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XN56NGV56R;
+				INFOPLIST_FILE = ILYStringPickerController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hj.ILYStringPickerController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFF7172424C923D200522100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XN56NGV56R;
+				INFOPLIST_FILE = ILYStringPickerController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hj.ILYStringPickerController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BFF7172624C923D200522100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XN56NGV56R;
+				INFOPLIST_FILE = ILYStringPickerControllerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hj.ILYStringPickerControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ILYStringPickerController.app/ILYStringPickerController";
+			};
+			name = Debug;
+		};
+		BFF7172724C923D200522100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XN56NGV56R;
+				INFOPLIST_FILE = ILYStringPickerControllerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hj.ILYStringPickerControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ILYStringPickerController.app/ILYStringPickerController";
+			};
+			name = Release;
+		};
+		BFF7172924C923D200522100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XN56NGV56R;
+				INFOPLIST_FILE = ILYStringPickerControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hj.ILYStringPickerControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ILYStringPickerController;
+			};
+			name = Debug;
+		};
+		BFF7172A24C923D200522100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XN56NGV56R;
+				INFOPLIST_FILE = ILYStringPickerControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hj.ILYStringPickerControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ILYStringPickerController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFF716EE24C923CD00522100 /* Build configuration list for PBXProject "ILYStringPickerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFF7172024C923D200522100 /* Debug */,
+				BFF7172124C923D200522100 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFF7172224C923D200522100 /* Build configuration list for PBXNativeTarget "ILYStringPickerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFF7172324C923D200522100 /* Debug */,
+				BFF7172424C923D200522100 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFF7172524C923D200522100 /* Build configuration list for PBXNativeTarget "ILYStringPickerControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFF7172624C923D200522100 /* Debug */,
+				BFF7172724C923D200522100 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFF7172824C923D200522100 /* Build configuration list for PBXNativeTarget "ILYStringPickerControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFF7172924C923D200522100 /* Debug */,
+				BFF7172A24C923D200522100 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFF716EB24C923CD00522100 /* Project object */;
+}
